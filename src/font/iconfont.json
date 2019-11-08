@@ -1,0 +1,23 @@
+{
+  "id": "1495200",
+  "name": "11-6",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3510239",
+      "name": "修改密码-小眼睛",
+      "font_class": "xiugaimimaxiaoyanjing",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "4965543",
+      "name": "小眼睛-闭",
+      "font_class": "xiaoyanjing-bi",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    }
+  ]
+}
