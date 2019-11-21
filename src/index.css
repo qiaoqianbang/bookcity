@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#root,html,body,.m-route,.m-index{
+  width: 100%;
+  height: 100%;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.m-index{
+  display: flex;
+  flex-direction: column;
+}
+.m-index-nav{
+  width: 100%;
+  height: 35px;
+  background: #eee;
+  display: flex;
+}
+.m-index-content{
+  flex:1;
+  overflow: hidden;
+}
+.m-index-nav-item{
+  color: #333;
+  text-decoration: none;
+  flex:1;
+  text-align: center;
+  line-height: 35px;
+}
+.active{
+  color: tomato;
+}
+.m-choice-nav{
+  display: flex;
+  width: 100%;
+  height: 35px;
+}
+.m-choice-nav span{
+  flex: 1;
+  text-align: center;
+  line-height: 35px;
+  cursor: pointer;
+}
+.m-choice-content{
+  width: 100%;
+  flex: 1;
+  overflow: auto;
+}
+.m-choice-content-item{
+  width: 100%;
+  height: 220px;
+  margin: 10px;
+  display: flex;
+}
+.m-choice-content-item img{
+  width: 36%;
+  height: 100%;
+}
+.active1{
+  border-bottom: 1px solid tomato;
+}
+.m-choice{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.m-choice-content-right{
+  margin-left: 15px;
+}
+.m-choice-content-right button{
+  margin: 5px;
+}
+.m-detail-item{
+  margin: 15px;
+}
+.m-detail-item p,img{
+  margin-left: 25px;
+}
+.m-mybook{
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+.m-mybook-item{
+  display: flex;
+  width: 100%;
+  height: 200px;
+  margin: 15px;
+  border-bottom: 1px dashed #000;
+}
+.m-mybook-item img{
+  margin: auto 5px;
+  width: 36%;
+  height: 95%;
+}
+.m-mybook-bottom{
+  width: 100%;
+  height: 45px;
+  background: #eee;
+  display: flex;
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+}
+.m-mybook-bottom p{
+  flex: 1;
+}
+.m-mybook-bottom button{
+ height: 35px;
+ margin: auto 15px;
+}
